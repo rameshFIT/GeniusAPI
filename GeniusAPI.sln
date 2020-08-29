@@ -5,6 +5,15 @@ VisualStudioVersion = 16.0.30406.217
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeniusAPI", "GeniusAPI\GeniusAPI.csproj", "{F186335C-577C-4964-AD3A-21DB069ED25B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GeniusAPI.Documentation", "GeniusAPI.Documentation", "{7AFF5D72-7D4C-4BD7-AEAE-1EB7F365A82F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Genius API SCreen Shots", "Genius API SCreen Shots", "{4BBF0D13-92CD-4557-BC54-5D4356E86F53}"
+	ProjectSection(SolutionItems) = preProject
+		GeniusAPIDocumentation\API Screen Shots\All products detail API.png = GeniusAPIDocumentation\API Screen Shots\All products detail API.png
+		GeniusAPIDocumentation\API Screen Shots\Product 2 details.png = GeniusAPIDocumentation\API Screen Shots\Product 2 details.png
+		GeniusAPIDocumentation\API Screen Shots\Product 3 details.png = GeniusAPIDocumentation\API Screen Shots\Product 3 details.png
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,6 +27,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4BBF0D13-92CD-4557-BC54-5D4356E86F53} = {7AFF5D72-7D4C-4BD7-AEAE-1EB7F365A82F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F2E9AAB3-42A2-43AD-9A6B-C2C6BA4D8026}
